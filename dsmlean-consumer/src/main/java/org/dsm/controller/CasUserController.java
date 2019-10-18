@@ -1,6 +1,7 @@
 package org.dsm.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import org.dsm.annotation.TxManagerFlag;
 import org.dsm.dao.CasUser;
 import org.dsm.service.CasUserService;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,8 +19,8 @@ public class CasUserController {
     private CasUserService casUserService;
 
     @RequestMapping("getCasUserById")
-    public CasUser getCasUserById() {
-        System.out.println("xxoo");
+    @TxManagerFlag
+    public CasUser getCasUserById() throws InterruptedException {
         return casUserService.selectById(1L);
     }
 }

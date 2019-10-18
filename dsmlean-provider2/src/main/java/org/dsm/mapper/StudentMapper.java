@@ -1,8 +1,11 @@
 package org.dsm.mapper;
 
+import org.apache.ibatis.annotations.Mapper;
+import org.dsm.aop.BaseMapper;
 import org.dsm.dao.Student;
 
-public interface StudentMapper {
+@Mapper
+public interface StudentMapper extends BaseMapper {
     int deleteByPrimaryKey(Long id);
 
     int insert(Student record);

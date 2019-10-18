@@ -1,10 +1,11 @@
 package org.dsm.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.dsm.aop.BaseMapper;
 import org.dsm.dao.CasUser;
 
 @Mapper
-public interface CasUserMapper {
+public interface CasUserMapper extends BaseMapper {
     int deleteByPrimaryKey(Long id);
 
     int insert(CasUser record);

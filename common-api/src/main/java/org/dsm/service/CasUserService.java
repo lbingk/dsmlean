@@ -14,7 +14,7 @@ public interface CasUserService {
      * @param casUser
      * @return
      */
-    public int insertCasUser(CasUser casUser);
+    public int insertCasUser(CasUser casUser) throws InterruptedException;
 
     /**
      * 更新
@@ -38,6 +38,6 @@ public interface CasUserService {
      * @param id
      * @return
      */
-    public CasUser selectById(Long id);
+    public CasUser selectById(Long id) throws InterruptedException;
 }
 

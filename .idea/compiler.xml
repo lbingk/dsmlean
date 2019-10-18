@@ -9,13 +9,24 @@
         <module name="common-api" />
         <module name="dsmlean-consumer" />
         <module name="dsmlean-provider" />
+        <module name="dsmlean-provider2" />
+        <module name="dsmlean-provider3" />
+        <module name="txmanager" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="common-api" target="1.7" />
-      <module name="dsmlean" target="1.7" />
-      <module name="dsmlean-consumer" target="1.7" />
-      <module name="dsmlean-provider" target="1.7" />
+      <module name="dsmlean" target="1.8" />
+      <module name="dsmlean-consumer" target="1.8" />
+      <module name="dsmlean-provider" target="1.8" />
+      <module name="dsmlean-provider2" target="1.8" />
+      <module name="dsmlean-provider3" target="1.8" />
+      <module name="txmanager" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dsmlean" options="" />
+    </option>
   </component>
 </project>

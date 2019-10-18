@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/workspace.xml
+common-api/src/main/java/org/dsm/input/
+common-api/src/main/java/org/dsm/output/
+common-api/target/
+dsmlean-consumer/target/
+dsmlean-provider/target/

@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dsmlean.iml" filepath="$PROJECT_DIR$/dsmlean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dsmlean.iml" filepath="$PROJECT_DIR$/.idea/dsmlean.iml" />
       <module fileurl="file://$PROJECT_DIR$/dsmlean-consumer/dsmlean-consumer.iml" filepath="$PROJECT_DIR$/dsmlean-consumer/dsmlean-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dsmlean-provider/dsmlean-provider.iml" filepath="$PROJECT_DIR$/dsmlean-provider/dsmlean-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsmlean-provider2/dsmlean-provider2.iml" filepath="$PROJECT_DIR$/dsmlean-provider2/dsmlean-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsmlean-provider3/dsmlean-provider3.iml" filepath="$PROJECT_DIR$/dsmlean-provider3/dsmlean-provider3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txmanager/txmanager.iml" filepath="$PROJECT_DIR$/txmanager/txmanager.iml" />
     </modules>
   </component>
 </project>

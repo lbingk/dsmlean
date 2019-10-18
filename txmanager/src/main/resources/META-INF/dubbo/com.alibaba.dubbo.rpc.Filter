@@ -1,0 +1,2 @@
+txProviderFilter=org.dsm.filter.providerfilter.TxProviderFilter
+txConsumerFilter=org.dsm.filter.consumerfilter.TxConsumerFilter
